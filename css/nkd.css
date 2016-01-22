@@ -583,6 +583,10 @@ nav .back p {
   padding:5px;
 }
 
+.social a {
+  text-decoration: none; 
+}
+
 .next-prev-btn {
   position: absolute;
   height: 24px;
@@ -609,95 +613,32 @@ nav .back p {
   line-height: 24px;
 }
 
-
-#networks a:first-child {
-  margin-left: 0px;
-}
-#networks a {
-  color: #aaa;
-  text-align: center;
-  margin-left: 8px;
-  margin-right: 8px;
-  font-size: 30px;
-  opacity: 0.3;
-  font-family: 'icomoon';
-  text-decoration: none;
-}
-
-#networks a:hover {
-  opacity: 0.8;
-}
-
-.thumb {
-  position: relative;
-  z-index: 1;
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+  background-color: #fff;
+  font-family: inherit;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  color: rgba(0,0,0,0.75);
   display: block;
-  overflow: hidden;
-  background: #ecf0f0;
-  margin-bottom: 40px;
-}
-.thumb .project-link {
+  font-size: 0.875rem;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  height: 2.3125rem;
   width: 100%;
-  height: 100%;
-  display: block;
-  padding-top: 0px;
-  padding-left: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: box-shadow 0.45s,border-color 0.45s ease-in-out;
 }
 
-.thumb-caption {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: transparent;
-  opacity: 1;
-  padding: 4rem;
-  z-index: 99;
-  color:#fff;
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
+    background: #fafafa;
+    border-color: #999;
+    outline: none;
 }
 
-.thumb .thumb-cover {
-  width: 100%;
-  height: 100%;
-  background-size: 100%;
-  background-position: center;
-  -webkit-transform: translate(0,0);
-  background-repeat: no-repeat;
-  -webkit-transition: all 0.20s;
-  -moz-transition: all 0.20s;
-  transition: all 0.20s;
-}
 
-.loop-wrap {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  padding-top: 2rem;
-}
-
-.loop-wrap .thumb  {
-  float: left;
-  margin-bottom: 20px;
-  width: 100%;
-  height: 556px;
-}
-
-.thumb.fr {
-  float: right !important;
-}
-
-@media screen and (min-width: 61.25em) {
-  .loop-wrap .thumb {
-    height: 556px;
-    width: 50%;
-    border-right: 10px #fff solid;
-  }
-  .thumb.fr {
-    border-left: 10px #fff solid;
-  }
-}
-
-#test {
-  height: 485px;
-  background-color: #AD9CE9;
-}

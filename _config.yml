@@ -43,7 +43,7 @@ exclude: [README.md, Rakefile, node_modules]
 permalink: /:title
 
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 
 # Variable format options for URL styles below
 # ============================================================

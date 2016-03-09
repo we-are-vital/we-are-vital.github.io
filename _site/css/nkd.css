@@ -662,12 +662,12 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   position: absolute;
   left: 0;
   bottom: 1px;
-  background-color: #efefef;
+  background-color: #fff;
   box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .2), 0px 1px 0px 0px rgba(255, 255, 255, .5);
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
-  background: #fafafa;
+  background: #fff;
   border-color: #999;
   outline: none;
 }
@@ -684,6 +684,7 @@ input[type=checkbox]:checked + label:before {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
   font-size: 15px;
   color: #78AB46;
+  border:1px solid #ccc;
   text-align: center;
   line-height: 15px;
 }
@@ -764,3 +765,9 @@ a.btn:hover {
 
 .fa-youtube {
   background: #bb0000; }
+
+
+span {
+background: #fff;
+padding:0 4px;
+}

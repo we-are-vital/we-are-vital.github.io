@@ -11,6 +11,7 @@
 # ============================================================
 name: "We Are Vital"
 title: "We Are Vital"
+bgimage: home-page-9.jpg
 
 # Populates the meta description for the site. Should be under 150 characters for best SEO results.
 # ============================================================

@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html lang="en"> 
   {% include _head.html %}
-  <body class="pas" style=" background: url(/img/{% if page.bgimage %}{{ page.bgimage }}{% else %}{{ site.bgimage }}{% endif %}) no-repeat">
+  <body class="pas" style="background: url(/img/{% if page.bgimage %}{{ page.bgimage }}{% else %}{{ site.bgimage }}{% endif %}) no-repeat;background-size:cover;">
     {{ content }}
   </body>
   <!-- {% include _footer.html %} -->
